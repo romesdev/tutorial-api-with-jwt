@@ -1,0 +1,20 @@
+{
+  "name": "tutorial-api-with-jwt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/romesdev/tutorial-api-with-jwt.git",
+  "author": "romesdev",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --watch api.js",
+    "test:dev": "node --test --watch api.test.js",
+    "test": "node --test api.test.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "9.0.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
